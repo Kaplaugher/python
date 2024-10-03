@@ -12,4 +12,4 @@ class Opportunity(BaseModel):
     description: str
     client: str
     date: date
-    files: List[File] = []
+    files: List[str] = []
